@@ -1,0 +1,7 @@
+cd ~/gnl1z-manager
+mkdir -p .github/workflows
+curl -o .github/workflows/automation.yml \
+  https://raw.githubusercontent.com/djslimaniunivboumerdes-netizen/GNL1Z_MANAGER/main/.github/workflows/automation.yml
+git add .github/
+git commit -m "Add GitHub Actions automation"
+git push origin main
